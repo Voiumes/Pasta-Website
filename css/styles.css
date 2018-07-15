@@ -1,0 +1,266 @@
+body{
+    background-color: rgb(248,249,250)!important;
+}
+nav li {
+    list-style: none;
+}
+
+.space {
+    height: 1000px;;
+}
+
+.navcont{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu a {
+    border-bottom:3px solid rgb(248,249,250);
+    transition: .2s;
+}
+.menu a:hover { 
+    border-bottom:3px solid green;
+}
+@media only screen and (min-width : 480px) {
+    .dropdown-menu>li>a {
+      background-color: red;
+    }
+      }
+.jumbimg1 {
+    height: 500px;
+    margin-bottom: 0px;
+    background-image: url("../img/Spaghetti.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.welcome{
+    text-shadow: black 0.3em 0.3em 0.3em;
+    font-size: 5em;
+    color: white;
+    text-align: center;
+}
+.welcometo{
+    font-size: 24px;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+.learn{
+    margin-top: 105px;
+}
+.jumbButton{
+    padding-top:52px;
+}
+
+
+
+.intro {
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;  
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.titles{
+    color: rgb(0, 112, 0);
+    font-size: 48px;
+}
+.images {
+ width: 90%;
+ height: auto;
+ border-radius: 12%;
+ margin-bottom: 2em;
+ display: block;
+ margin-left: auto;
+ margin-right:auto;
+ 
+}
+@media screen and (min-width: 750px){
+    .wrapper1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 50% 25% 25%;   
+    column-gap: 2rem;
+}
+
+}
+.jumbimg2 {
+    height: 300px;
+    width: 100%;
+    margin-top: 80px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 50px;
+    background-image: url("../img/jumbImg1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.jumbimg2h1{
+    text-shadow: black 0.3em 0.3em 0.3em;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+
+}
+
+@media screen and (min-width: 750px){
+    .wrapper2 {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 15% 15% 70%;   
+
+}
+
+}
+.gallery {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.jumbimg3 {
+    height: 250px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-image: url("../img/flavors.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.about {
+    background-color: rgb(0, 10, 0);
+    padding: 50px 0;
+}
+.aboutTitle{
+    color: rgb(137, 173, 84);
+    text-align: center;
+}
+.aboutP {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    color:whitesmoke;
+    text-align: center;
+}
+.about input{
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.submit{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 5px;
+}
+footer {
+    background-color: rgb(37, 10, 10);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.jumbMenu {
+    height: 500px;
+    margin-bottom: 0px;
+    background-image: url("../img/jumbMenu.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.dish-name{
+    color:green;
+    font-weight: bold;
+}
+.price {
+padding-left: 50px;
+}
+td {
+    border-bottom: 1px solid rgba(165, 165, 165, 0.548);
+}
+.foodType{
+    font-size: 35px;
+}
+.jumbBook {
+    height: 500px;
+    margin-bottom: 0px;
+    background-image: url("../img/book.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+@media screen and (min-width: 750px){
+.booking {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px 0;
+    text-align: center;
+}
+}
+.bookTable {
+    display: block;
+    margin: 30px auto;
+}
+.note{
+    text-align: center;
+    width:35%;
+    margin: 0px auto;
+    padding-bottom: 30px;
+}
+
+/*Contact form*/
+
+
+.contact>form>input[type=text], textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+}
+
+
+.contact>form>input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.contact>form>input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (min-width: 750px){
+.contact {
+    width: 50%;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    text-align: left;
+}
+}
