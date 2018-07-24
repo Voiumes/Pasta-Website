@@ -41,6 +41,14 @@ nav li {
     font-size: 5em;
     color: white;
     text-align: center;
+    animation-name:fadein;
+    animation-duration:.8s;
+    animation-timing-function:0s;
+    animation-delay:0s;
+    animation-iteration-count:1;
+    animation-direction: normal; 
+    animation-fill-mode: forwards;
+    animation-timing-function:.17,.67,.77,1.46;
 }
 .welcometo{
     font-size: 24px;
