@@ -11,3 +11,29 @@
         opacity: 1;
     }
 }
+@keyframes fadeleft{
+    0%{
+        transform: translate(-300px, 0px);
+        opacity: 0;
+    }
+    50%{
+ 
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
+@keyframes faderight{
+    0%{
+        transform: translate(300px, 0px);
+        opacity: 0;
+    }
+    50%{
+ 
+    }
+    100%{
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+}
