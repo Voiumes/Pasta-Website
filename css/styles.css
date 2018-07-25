@@ -56,12 +56,7 @@ nav li {
 }
 .learn{
     margin-top: 105px;
-
 }
-
-
-
-
 .intro {
     padding-left: 50px;
     padding-right: 50px;
@@ -284,10 +279,10 @@ td {
 .contact {
     width: 50%;
     margin: 50px auto;
+    margin-top: 150px;
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 5px;
     background-color: #f2f2f2;
     text-align: left;
-}
 }
