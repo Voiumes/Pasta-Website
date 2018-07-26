@@ -1,0 +1,23 @@
+{
+  "name": "pasta_heaven_deploy",
+  "description": "\"#Pasta Heaven Site for GitHub\"",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voiumes/Rengar.git"
+  },
+  "author": "Sean Teodosio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Voiumes/Rengar/issues"
+  },
+  "homepage": "https://github.com/Voiumes/Rengar#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
