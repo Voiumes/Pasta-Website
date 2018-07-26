@@ -15,4 +15,6 @@ app.get("/contact", function (req, res) {
     res.render("contact");
 });
 app.listen(process.env.PORT, process.env.IP);
-
+// app.listen(3000, function () {
+//     console.log("Server is live on Port 3000");
+// });
